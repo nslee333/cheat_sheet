@@ -1,0 +1,1 @@
+[alt + [right arrow] / [left arrow]] - switch tabs in terminal.
