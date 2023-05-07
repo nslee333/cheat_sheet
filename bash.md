@@ -1,3 +1,7 @@
+### Quick ref
+[typing out command + tab] = autocomplete for command / file 
+
+### Commands
 ls = list files in directory.
   - [ls ~/path/to/dir, print the contents of dir]
   - [-l, long format]
@@ -11,3 +15,5 @@ cd [directory] = move into directory
   - [cd ~]
   - [no args, goes to home directory]
   - [cd -, change to previous directory]
+
+man [tool name] = tool / command manual
