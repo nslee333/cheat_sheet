@@ -16,5 +16,7 @@ cd [directory] = move into directory
   - [no args, goes to home directory]
   - [cd -, change to previous directory]
 
-man [tool name] = tool / command manual
-[command] >> write_to_file.md - Write output to a file.
+touch [filename] - create a file.<br>
+mkdir __dirname__<br>
+man [tool name] = tool / command manual<br>
+[command] >> write_to_file.md - Write output to a file.<br>
