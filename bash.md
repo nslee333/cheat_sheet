@@ -17,3 +17,4 @@ cd [directory] = move into directory
   - [cd -, change to previous directory]
 
 man [tool name] = tool / command manual
+[command] >> write_to_file.md - Write output to a file.
