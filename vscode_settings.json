@@ -1,0 +1,84 @@
+{
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "hardhat.telemetry": true,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "apikey",
+        "Bootcamp",
+        "cooldown",
+        "currentconditions",
+        "fontawesome",
+        "fortawesome",
+        "Solari"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    "[typescript]": {
+    
+        "editor.parameterHints.enabled": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.tsserver.log": "off",
+    "update.mode": "manual",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.editor.enablePreview": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "on",
+
+    "editor.tokenColorCustomizations": {
+        // "comments":  "",
+        // "strings":  "",
+    },
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "none",
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "files.associations": {
+        "*.scss": "tailwindcss"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": false,
+    "git.ignoreRebaseWarning": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.panel.opensMaximized": "always",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "window.menuBarVisibility": "compact",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "go.toolsManagement.autoUpdate": true,
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.oranizeImports": false
+        },
+    },
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 1
+}
