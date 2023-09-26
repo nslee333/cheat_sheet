@@ -20,3 +20,4 @@ touch [filename] - create a file.<br>
 mkdir __dirname__<br>
 man [tool name] = tool / command manual<br>
 [command] >> write_to_file.md - Write output to a file.<br>
+ctrl + r -> search for used command in past.
