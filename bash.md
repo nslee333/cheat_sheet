@@ -22,3 +22,4 @@ man [tool name] = tool / command manual<br>
 [command] >> write_to_file.md - Write output to a file.<br>
 ctrl + r -> search for used command in past.
 xdg-open [file.pdf] -> open pdf in prefered app (firefox works)
+cp -a /source/. /dest/ -> -a is an improved recursive flag, the '.' is used to copy all files, directories, hidden or visible.
