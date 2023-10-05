@@ -25,3 +25,4 @@ xdg-open [file.pdf] -> open pdf in prefered app (firefox works)
 cp -a /source/. /dest/ -> -a is an improved recursive flag, the '.' is used to copy all files, directories, hidden or visible.
 neofetch -> system info script, shows specs in terminal.
 fortune -> print a joke, quote or a fortune to your terminal.
+curl cheat.sh/ -> cheatsheet over curl, `curl cheat.sh/latency`
