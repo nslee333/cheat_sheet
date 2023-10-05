@@ -18,6 +18,8 @@ dd -> delete line
   -> [N]dd -> delete N lines below cursor
 o -> add line below
   -> [N]o add N lines below.
+O -> add line above
+  -> [N]O add N lines above
 
 insert mode commands:
 esc -> exit insert mode.
