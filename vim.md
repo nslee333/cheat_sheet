@@ -10,6 +10,7 @@ commands:
 :ter -> open terminal in vim
   -> ctrl + d => close terminal
   -> ctrl + w => switch between windows in split mode.
+:help -> get help, silly
 
 
 normal mode commands:
