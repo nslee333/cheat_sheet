@@ -21,6 +21,11 @@ o -> add line below
   -> [N]o add N lines below.
 O -> add line above
   -> [N]O add N lines above
+u -> undo
+  U -> undo whole line
+
+
+
 
 insert mode commands:
 esc -> exit insert mode.
