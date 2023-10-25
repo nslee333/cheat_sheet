@@ -11,7 +11,9 @@ createdb <database name> -> create database.
 
 
 in psql mode:
+
 \q OR ctrl + d -> quit to postgres
+
 \h -> help for sql commands
 
 
