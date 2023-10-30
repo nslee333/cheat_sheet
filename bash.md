@@ -39,3 +39,5 @@ curl cheat.sh/ -> cheat sheet, check it out. e.g.-> `curl cheat.sh/latency` `cur
 chardet [file] -> detect what file encoding the file is
 
 hexdump [file] > [output.txt] -> dump file hex to output to inspect
+
+file [file] -> checkout file details
