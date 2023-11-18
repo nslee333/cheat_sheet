@@ -41,3 +41,5 @@ chardet [file] -> detect what file encoding the file is
 hexdump [file] > [output.txt] -> dump file hex to output to inspect
 
 file [file] -> checkout file details
+
+time [filename.ext] -> time the performance of a file
