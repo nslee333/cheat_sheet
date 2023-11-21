@@ -43,3 +43,6 @@ hexdump [file] > [output.txt] -> dump file hex to output to inspect
 file [file] -> checkout file details
 
 time [filename.ext] -> time the performance of a file
+
+grep -o <item> [filename] -> finds string in file, -o only outputs exact matching string
+
