@@ -15,3 +15,4 @@ ctrl + b, [ -> scroll mode, pgUp pgDwn for scrolling
 
 If you ever modify .tmux.conf make sure you run this command:
   - `tmux source-file ~/.tmux.conf`
+  - restarting your pc also works :)
