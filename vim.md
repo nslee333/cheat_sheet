@@ -22,6 +22,9 @@ commands:
 
 :help -> get help, silly
 
+:m 13 -> move current line to line 13
+
+
 
 normal mode commands:
 
