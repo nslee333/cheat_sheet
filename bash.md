@@ -47,3 +47,5 @@ time [filename.ext] -> time the performance of a file
 grep -o <item> [filename] -> finds string in file, -o only outputs exact matching string
 
 echo $? -> the exit status of the last executed command in bash. 
+
+whatis [tool_name] -> find what a command is used for
