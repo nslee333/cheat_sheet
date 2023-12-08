@@ -1,5 +1,5 @@
 ### Quick ref
-[typing out command + tab] = autocomplete for command / file 
+[TYPIng out command + tab] = autocomplete for command / file 
 
 ### Commands
 ls = list files in directory.
@@ -49,3 +49,5 @@ grep -o <item> [filename] -> finds string in file, -o only outputs exact matchin
 echo $? -> the exit status of the last executed command in bash. 
 
 whatis [tool_name] -> find what a command is used for
+
+history -> view cmd history
