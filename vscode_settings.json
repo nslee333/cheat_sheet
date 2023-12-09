@@ -62,7 +62,7 @@
     },
     "editor.cursorStyle": "block",
     "terminal.integrated.cursorBlinking": true,
-    "workbench.panel.opensMaximized": "always",
+    // "workbench.panel.opensMaximized": "always",
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
