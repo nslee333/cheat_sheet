@@ -8,6 +8,7 @@ psql <database> -> psql mode for database, be careful.
 
 createdb <database name> -> create database.
 
+localhost is also known as 127.0.0.1, which helped me connect pgAdmin4 to my Postgres DB.
 
 
 in psql mode:
