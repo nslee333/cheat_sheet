@@ -10,6 +10,7 @@ createdb <database name> -> create database.
 
 localhost is also known as 127.0.0.1, which helped me connect pgAdmin4 to my Postgres DB.
 
+location of pg_hba.conf -> /etc/postgresql/16/main/pg_hba.conf, also note, make sure to check read priviledges in linux, you might need to sudo to read it.
 
 in psql mode:
 
