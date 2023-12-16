@@ -17,5 +17,11 @@ in psql mode:
 
 \h -> help for sql commands
 
+\i [filename] to run sql scripts
+
+\du -> display users + permisions
+
+\d [table name] display details of table
+
 
 
