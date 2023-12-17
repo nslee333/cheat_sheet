@@ -51,3 +51,5 @@ echo $? -> the exit status of the last executed command in bash.
 whatis [tool_name] -> find what a command is used for
 
 history -> view cmd history
+
+su [user] -> run a terminal under a different user.
