@@ -8,8 +8,12 @@ ctrl b,c -> new window
 
 ctrl + b [0...9] -> switch to N window.
 
-ctrl + b, [ -> scroll mode, pgUp pgDwn for scrolling 
+ctrl + b [ -> scroll mode, pgUp pgDwn for scrolling 
   q to exit
+
+ctrl + b % -> split current pane with a vertical line
+
+ctrl + b ; -> go to last active terminal
 
 ## other notes:
 
