@@ -53,3 +53,5 @@ whatis [tool_name] -> find what a command is used for
 history -> view cmd history
 
 su [user] -> run a terminal under a different user.
+
+source [filename] -> run a file as command line arguments instead of bash lang
