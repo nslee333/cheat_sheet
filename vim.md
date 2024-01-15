@@ -24,7 +24,7 @@ commands:
 
 :m 13 -> move current line to line 13
 
-
+:w !sudo tee % -> in vim write to file if you forgot to use 
 
 normal mode commands:
 
@@ -45,6 +45,8 @@ O -> add line above
 u -> undo
 
 U -> undo whole line
+
+r -> redo undo
 
 / -> search file for word or char
 
