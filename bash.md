@@ -55,3 +55,7 @@ history -> view cmd history
 su [user] -> run a terminal under a different user.
 
 source [filename] -> run a file as command line arguments instead of bash lang
+
+tree -> view directory hierarchy in linux
+
+
