@@ -45,6 +45,7 @@ file [file] -> checkout file details
 time [filename.ext] -> time the performance of a file
 
 grep -o <item> [filename] -> finds string in file, -o only outputs exact matching string
+  - grep -rn "<string>" -> search recursively, list line number for <string> in directory
 
 echo $? -> the exit status of the last executed command in bash. 
 
