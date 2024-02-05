@@ -10,6 +10,14 @@ git commit -m "<commit message>" -> commit changes with git message
 
 git push -> push changes to remote
 
+git branch <branch_name> -> make a new branch
+
+git checkout <branch_name> -> switch to branch
+
+git branch -d <branch_name> -> delete branch
+
+
+
 
 
 to keep a main branch pointing to a main repo, instead of your own forked repo
