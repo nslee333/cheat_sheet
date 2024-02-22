@@ -59,4 +59,6 @@ source [filename] -> run a file as command line arguments instead of bash lang
 
 tree -> view directory hierarchy in linux
 
-
+. -> tells Ubuntu to run command in current directory.
+  
+  -> e.g. -> cp [path/to/file] . 
