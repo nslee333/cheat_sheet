@@ -24,3 +24,8 @@ to keep a main branch pointing to a main repo, instead of your own forked repo
 `git remote add upstream <url.com>`
 `git fetch upstream`
 `git branch --set-upstream-to=upstream/main main`
+
+
+hint: if you have a local commit that's causing a merge conflict, you can use this command to 
+deleted your commit without destroying your progress.
+`git reset --soft HEAD~1`
