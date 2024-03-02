@@ -16,7 +16,9 @@ git checkout <branch_name> -> switch to branch
 
 git branch -d <branch_name> -> delete branch
 
+git stash -> stash changes locally
 
+git stash pop -> unstash changes back to work environment
 
 
 
