@@ -62,3 +62,5 @@ tree -> view directory hierarchy in linux
 . -> tells Ubuntu to run command in current directory.
   
   -> e.g. -> cp [path/to/file] . 
+
+diff [file.ext] [file.ext] -> view the differences between files
