@@ -20,6 +20,8 @@ git stash -> stash changes locally
 
 git stash pop -> unstash changes back to work environment
 
+git restore . -> discard all unstaged changes
+
 
 
 to keep a main branch pointing to a main repo, instead of your own forked repo
