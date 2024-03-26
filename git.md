@@ -24,6 +24,7 @@ git restore . -> discard all unstaged changes
 
 git long -n 5 -> git log limit to last 5 lines
 
+git rebase --interactive HEAD~<n> where n = number of commits -> enter git rebase in interactive mode
 
 
 to keep a main branch pointing to a main repo, instead of your own forked repo
