@@ -26,6 +26,10 @@ man [tool name] = tool / command manual
 
 ctrl + r -> search for used command in past.
 
+ctrl + c -> politely ask the process to exit.
+
+ctrl + \ -> kill the process with with extreme prejudice
+
 xdg-open [file.pdf] -> open pdf in prefered app (firefox works)
 
 cp -a /source/. /dest/ -> -a is an improved recursive flag, the '.' is used to copy all files, directories, hidden or visible.
