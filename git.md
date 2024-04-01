@@ -22,7 +22,7 @@ git stash pop -> unstash changes back to work environment
 
 git restore . -> discard all unstaged changes
 
-git reset --soft HEAD~1 -> undo the latest commit and save changes
+git reset --soft HEAD~1 -> undo the latest commit and save change
 
 git long -n 5 -> git log limit to last 5 lines
 
@@ -44,7 +44,15 @@ git reflog
 
 also don't be afraid to create a new branch as a save point, then you can modify the commit history with a backup branch as an insurance policy
 
+resolving merge conflicts:
+- timeline:
 
+- pull changes down, merge conflict with files.
 
+- resolve merge conflicts by pulling it down and opening up vscode and resolving one-by-one
+
+- after you get it all done git will generate a git merge commit, you can get rid of this commit by using `git rebase -i` which will simply drop the merge commits, that way you don't have a silly merge commit that gets pushed up.
+
+- then simply continue with regular programming
 
 
