@@ -22,6 +22,8 @@ git stash pop -> unstash changes back to work environment
 
 git restore . -> discard all unstaged changes
 
+git reset --soft HEAD~1 -> undo the latest commit and save changes
+
 git long -n 5 -> git log limit to last 5 lines
 
 to keep a main branch pointing to a main repo, instead of your own forked repo
