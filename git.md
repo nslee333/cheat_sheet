@@ -26,6 +26,9 @@ git reset --soft HEAD~1 -> undo the latest commit and save change
 
 git long -n 5 -> git log limit to last 5 lines
 
+git diff [branch] [remote]/[branch] view differences between remote and local
+
+
 to keep a main branch pointing to a main repo, instead of your own forked repo
 `git remote add upstream <url.com>`
 `git fetch upstream`
