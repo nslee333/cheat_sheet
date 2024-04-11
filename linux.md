@@ -68,3 +68,5 @@ tree -> view directory hierarchy in linux
   -> e.g. -> cp [path/to/file] . 
 
 diff [file.ext] [file.ext] -> view the differences between files
+
+grep -rn --exclude-dir=node_modules "accessToken"
