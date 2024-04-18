@@ -70,3 +70,7 @@ tree -> view directory hierarchy in linux
 diff [file.ext] [file.ext] -> view the differences between files
 
 grep -rn --exclude-dir=node_modules "accessToken"
+
+chown -R nslee333:nslee333 <directory_name> -> recursively change the ownership / group ownership of all files in a dir
+
+chgrp nslee333 <directory_name> -> change group ownership
