@@ -16,9 +16,11 @@ git checkout <branch_name> -> switch to branch
 
 git branch -d <branch_name> -> delete branch
 
-git stash -> stash changes locally
+git stash -> stash your changes.
 
-git stash pop -> unstash changes back to work environment
+git stash apply -> apply stashed changes into the current working tree state.
+
+git stash pop -> unstash changes back to work environment, ** WILL DELETE STASH CONTENTS **
 
 git restore . -> discard all unstaged changes
 
@@ -41,7 +43,9 @@ deleted your commit without destroying your progress.
 
 git rebase -i is great for rewriting commit history.
  - if you rewrite the history, and the remote history is longer than yours, you might need to use a `git pull --force` to update it.
-
+ - git rebase -i HEAD~5
+    - rebase 5 commits in log.
+    - `squash` to combine squashed commit into previous commit.
 git reflog 
   - Helpful for dealing with messed up commit history, will bail you out.
 
