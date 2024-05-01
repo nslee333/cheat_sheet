@@ -25,3 +25,7 @@ cli:
 'code .' open current dir in vscode :) <3
 
 VSCode commit history - works like a terminal where you can press `up arrow` or `down arrow` to view previous commit messages.
+
+
+- Ctrl + k with Ctrl + 0 -> minimize current brackets, with all nested brackets minimized too
+- Ctrl + k with Ctrl + j => reverse above.
