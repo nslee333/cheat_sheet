@@ -40,6 +40,8 @@ fortune -> print a joke, quote or a fortune to your terminal.
 
 curl cheat.sh/ -> cheat sheet, check it out. e.g.-> `curl cheat.sh/latency` `curl cheat.sh/:help`
 
+curl --request GET <url> -> get request url
+
 chardet [file] -> detect what file encoding the file is
 
 hexdump [file] > [output.txt] -> dump file hex to output to inspect
