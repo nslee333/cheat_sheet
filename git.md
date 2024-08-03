@@ -42,7 +42,7 @@ deleted your commit without destroying your progress.
 `git reset --soft HEAD~1`
 
 git rebase -i is great for rewriting commit history.
- - if you rewrite the history, and the remote history is longer than yours, you might need to use a `git pull --force` to update it.
+ - if you rewrite the history, and the remote history is longer than yours, you might need to use a `git push --force` to update it.
  - git rebase -i HEAD~5
     - rebase 5 commits in log.
     - `squash` to combine squashed commit into previous commit.
