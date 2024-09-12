@@ -16,6 +16,9 @@ git checkout <branch_name> -> switch to branch
 
 git branch -d <branch_name> -> delete branch
 
+git branch -u or --set-upstream-to=origin/<branch_name> <local_branch>
+  - this is useful for setting the upstream of a branch.
+
 git stash -> stash your changes.
 
 git stash apply -> apply stashed changes into the current working tree state.
@@ -26,9 +29,15 @@ git restore . -> discard all unstaged changes
 
 git reset --soft HEAD~1 -> undo the latest commit and save change
 
+  - you can also use git reflog to look at the history, and go back and reset any changes you made
+  - by doing git reset HEAD@{n of changes ago, 0 being current}
+
 git long -n 5 -> git log limit to last 5 lines
 
 git diff [branch] [remote]/[branch] view differences between remote and local
+
+git reflog -> view all ref updates, super helpful.
+
 
 
 to keep a main branch pointing to a main repo, instead of your own forked repo

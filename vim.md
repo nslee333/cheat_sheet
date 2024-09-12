@@ -26,6 +26,8 @@ commands:
 
 :w !sudo tee % -> in vim write to file if you forgot to use 
 
+:h [error code, E212] -> definition of vim error 
+
 normal mode commands:
 
 i -> insert mode

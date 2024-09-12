@@ -42,6 +42,8 @@ curl cheat.sh/ -> cheat sheet, check it out. e.g.-> `curl cheat.sh/latency` `cur
 
 curl --request GET <url> -> get request url
 
+curl -X GET <url> -> get request shortcut
+
 chardet [file] -> detect what file encoding the file is
 
 hexdump [file] > [output.txt] -> dump file hex to output to inspect
@@ -52,6 +54,8 @@ time [filename.ext] -> time the performance of a file
 
 grep -o <item> [filename] -> finds string in file, -o only outputs exact matching string
   - grep -rn "<string>" -> search recursively, list line number for <string> in directory
+grep -I -> <item> -> case insensitive
+
 
 echo $? -> the exit status of the last executed command in bash. 
 
@@ -76,3 +80,7 @@ grep -rn --exclude-dir=node_modules "accessToken"
 chown -R nslee333:nslee333 <directory_name> -> recursively change the ownership / group ownership of all files in a dir
 
 chgrp nslee333 <directory_name> -> change group ownership
+
+netstat -l -> list listening ports on machine
+
+jq . -> sed for json, use it to format json output in terminal.

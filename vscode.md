@@ -14,7 +14,7 @@
 
 - ctrl + shift + p = command pallet.
 
-○ Reload window is ctrl + r.
+- Reload window is ctrl + r.
 
 - ctrl + space = intellisense suggestions
 
