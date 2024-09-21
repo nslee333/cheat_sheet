@@ -32,15 +32,24 @@ git reset --soft HEAD~1 -> undo the latest commit and save change
   - you can also use git reflog to look at the history, and go back and reset any changes you made
   - by doing git reset HEAD@{n of changes ago, 0 being current}
 
+
+
+
+
+
+
 git log -n 5 -> git log limit to last 5 lines
 git log --oneline -> oneline commit msgs
+git log branch..branch -> see how the two branches differ in commit history
 
+git diff [branch] [remote]/[branch] view differences in code between remote and local
 
-git diff [branch] [remote]/[branch] view differences between remote and local
-
-git diff origin/branch..origin/branch -> view differences between two upstreams
+git diff origin/branch..origin/branch -> view differences in code between two upstreams
 
 git reflog -> view all ref updates, super helpful.
+
+
+
 
 
 
