@@ -6,6 +6,8 @@ git status -> view local / remote git status
 
 git add . -> stage all current changes for commit
 
+git add -p . -> stage changes in hunks called patches.
+
 git commit -m "<commit message>" -> commit changes with git message
 
 git push -> push changes to remote
@@ -24,6 +26,14 @@ git stash -> stash your changes.
 git stash apply -> apply stashed changes into the current working tree state.
 
 git stash pop -> unstash changes back to work environment, ** WILL DELETE STASH CONTENTS **
+
+git stash -m "stash name"
+
+git stash -p -m "stash name" -> stash selected chunks.
+
+git stash apply stash@{n}
+
+
 
 git restore . -> discard all unstaged changes
 
