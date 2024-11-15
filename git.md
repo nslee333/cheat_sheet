@@ -35,7 +35,7 @@ git stash -u -> stash untracked files
 
 git stash push -m "message" -> name the stash
 
-
+git stash drop stash@{n} -> delete a specific stash
 
 
 
