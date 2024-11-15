@@ -31,6 +31,14 @@ git stash -m "stash name"
 
 git stash -p -m "stash name" -> stash selected chunks.
 
+git stash -u -> stash untracked files
+
+git stash push -m "message" -> name the stash
+
+
+
+
+
 git stash apply stash@{n}
 
 
